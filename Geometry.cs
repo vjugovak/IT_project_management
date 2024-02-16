@@ -1,6 +1,6 @@
 ﻿namespace Geometry
 {
-    partial class Geometry
+    public class Geometry
     {
 
     }
