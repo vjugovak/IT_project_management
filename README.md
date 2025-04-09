@@ -4,7 +4,7 @@
 
 Вам необходимо по величине углов `shoulder`, `elbow` и `wrist` вычислить координаты соответствующих суставов.
 
-Для этого в классе `AnglesToCoordinatesTask` реализуйте метод `PointF[] GetJointPositions(double shoulder, double elbow, double wrist)`
+Для этого в классе `AnglesToCoordinatesTask` реализуйте метод `Point[] GetJointPositions(double shoulder, double elbow, double wrist)`
 
 В том же файле в классе `AnglesToCoordinatesTask_Tests` напишите модульные тесты, покрывающие все принципиальные случаи (**6 лабораторная работа**).
 
