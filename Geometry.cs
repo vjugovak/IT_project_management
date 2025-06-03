@@ -34,7 +34,6 @@
                 Console.WriteLine("Ошибка ввода! Введите число:");
                 Console.Write("Y = ");
             }
-
             return v;
         }
 
@@ -46,12 +45,14 @@
                 Y = vector1.Y + vector2.Y
             };
         }
-
         public static double GetLength(Vector vector)
         {
-            return Math.Sqrt(vector.X * vector.X + vector.Y * vector.Y);
+            if (vector.X == 0 && vector.Y == 0)
+            {
+                Console.WriteLine("Задан нулевой вектор");
+            }
+             return Math.Sqrt(vector.X * vector.X + vector.Y * vector.Y);
         }
-
 
     }
 }
