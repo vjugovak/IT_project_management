@@ -49,6 +49,10 @@
 
         public static double GetLength(Vector vector)
         {
+            if (vector.X == 0 && vector.Y == 0)
+            {
+                Console.WriteLine("задан нулевой вектор");
+            }
             return Math.Sqrt(vector.X * vector.X + vector.Y * vector.Y);
         }
 
